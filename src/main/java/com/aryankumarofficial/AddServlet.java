@@ -15,14 +15,17 @@ public class AddServlet extends HttpServlet {
 
 		int k = i + j;
 
+		res.sendRedirect("square?k=" + k);
+
 		// session management
 
-		req.setAttribute("k", k);
+//		req.setAttribute("k", k);
 
 		// Request dispatcher
 
-		RequestDispatcher rDispatcher = req.getRequestDispatcher("square");
-		rDispatcher.forward(req, res);
+//		RequestDispatcher rDispatcher = req.getRequestDispatcher("square");
+//		rDispatcher.forward(req, res);
+
 	}
 
 }
