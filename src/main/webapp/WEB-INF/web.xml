@@ -3,7 +3,7 @@
 	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 	id="WebApp_ID" version="4.0">
-	<servlet>
+	<!--<servlet>
 		<servlet-name>add</servlet-name>
 		<servlet-class>com.aryankumarofficial.AddServlet</servlet-class>
 	</servlet>
@@ -44,6 +44,6 @@
 	<context-param>
 		<param-name>device</param-name>
 		<param-value>ACER</param-value>
-	</context-param>
+	</context-param>-->
 	
 </web-app>
